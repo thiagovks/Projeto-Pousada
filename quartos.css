@@ -1,0 +1,159 @@
+body {
+  font-family: 'source sans pro', sans-serif;
+  margin: 0;
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  margin: 0 auto;
+}
+.link {
+  float: right;
+  margin-top: -44px;
+  padding-right: 300px;
+  font-size: 20px;
+}
+.link a {
+  color: grey;
+  margin-left: 50px;
+}
+.titulo {
+  padding-left: 300px;
+  margin-top: -10px;
+}
+.titulo p {
+  width: fit-content;
+  height: fit-content;
+  font-size: 20px;
+}
+.titulo a {
+  color: grey;
+}
+.titulo span {
+  color: blue;
+}
+.teste img {
+  width: 100%;
+  margin-top: -90px;
+}
+.teste {
+  height: 200px;
+  overflow: hidden;
+}
+.central {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.central div {
+  text-align: center;
+}
+.central div h2 {
+  font-size: 40px;
+  font-weight: normal;
+}
+.quartos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.quartos img {
+  height: 400px;
+  width: 500px;
+  margin: 5px;
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lista1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 120px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+.lista1 li {
+  width: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.lista1 p {
+  text-align: left;
+}
+.copi {
+  text-align: center;
+  margin-left: 15%;
+  width: 70%;
+  height: 35px;
+  border-top: 1px solid black;
+}
+.copi p {
+  margin-top: 1px;
+}
+.baixo1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 800;
+}
+#footer {
+  color: white;
+  background-color: limegreen;
+}
+#footer a {
+  color: white;
+}
+.texto03 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.baixo {
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+}
+.baixo img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.texto03 h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.baixo p {
+  font-size: 18px;
+}
+.quartosf {
+  height: 180px;
+  width: 100vw;
+  overflow: hidden;
+}
+.quartosf img {
+  margin-top: -90px;
+  width: 100vw;
+}
